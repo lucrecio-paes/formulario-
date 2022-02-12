@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(255, 123, 0);
+    background: radial-gradient(circle, rgba(255, 123, 0, 1) 0%, rgb(0, 0, 0) 100%);
+    margin: 0;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+#name, #email, #number  {
+    letter-spacing: 3px;
+    height: 25px;
+    width: 100%;
+    background: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#name:focus, #email:focus, #number:focus {
+    height: 25px;
+    width: 100%;
+    background: rgb(199, 116, 21);
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+form {
+    background: rgba(0, 0, 0, 0.281);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+    form {
+      padding: 2.5rem;
+    }
+  }
+  
+  .form-group {
+    margin: 0 auto 0 auto;
+    padding: 0.25rem;
+  }
+
+  .input-radio,
+  .input-checkbox 
+  {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    
+  }
+
+ #dropdown{
+    width: 100%;
+    background: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+  textarea {
+    min-height: 80px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    background: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+  }
+
+
+  
+  #submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(241, 166, 5);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pesquisa Ninja</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1 id="title"><strong>Formulario de Pesquisa Ninja</strong></h1>
+            <p id="description">Preencha o formulario de pesquisa <strong>ninja</strong> é rapidinho!</p>
+        </header>
+
+        <section class="form-area">
+            <form action="" id="survey-form">
+                <div class="form-group">
+                    <label for="name" id="name-label">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="digite seu nome ninja" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="email" id="email-label">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email preferido" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="number" id="number-label">Idade:</label>
+                    <input type="number" id="number" name="number" placeholder="sua idade" required min="18" max="2100">
+                </div><br>
+
+                <div class="form-group">
+                    <p>De qual <strong>aldeia</strong> você é?</p>
+                    <select name="dropdown" id="dropdown">
+                        <option value="folha">Folha</option>
+                        <option value="areia">Areia</option>
+                        <option value="nuvem">Nuvem</option>
+                        <option value="nevoa">Névoa</option>
+                        <option value="pedra">Pedra</option>
+                    </select>
+                </div> <br>
+
+                <div class="form-group">
+                    <p>Qual dessa armas <strong>ninja</strong> você prefere?</p>
+
+                    <label>
+                        <input name="arma-ninja" value="kunai" type="radio" class="input-radio" checked />
+                        Kunai</label>
+
+                    <label>
+                        <input name="arma-ninja" value="adaga" type="radio" class="input-radio" />
+                        Adaga</label>
+
+                    <label>
+                        <input name="arma-ninja" value="arco" type="radio" class="input-radio" />
+                        Arco & Flecha</label>
+                </div><br>
+
+                <div class="form-group">
+                    <p>Escolha seus Dōjutsus favoritos</p>
+
+                    <label>
+                        <input type="checkbox" value="sharingan" class="input-checkbox">
+                        Sharingan</label>
+
+                    <label>
+                        <input type="checkbox" value="byakugan" class="input-checkbox">
+                        Byakugan</label>
+
+                    <label>
+                        <input type="checkbox" value="mangekyo" class="input-checkbox">
+                        Mangekyo Sharingan</label>
+
+                    <label>
+                        <input type="checkbox" value="rinnegan" class="input-checkbox">
+                        Rinnegan</label>
+
+                    <label>
+                        <input type="checkbox" value="tenseigan " class="input-checkbox">
+                        Tenseigan </label>
+
+                    <label>
+                        <input type="checkbox" value="jougan" class="input-checkbox">
+                        Jougan</label>
+
+                </div><br>
+
+                <div class="form-group">
+                    <p><strong>Escreva aqui o seu lema ninja:</strong></p>
+                    <textarea name="lema" id="lema" cols="30" rows="10"
+                        placeholder="Entre os mais fortes existem os que nasceram com um dom, e aqueles que trabalham duro… E eu sou um dos que trabalhou duro!"></textarea>
+                </div><br>
+
+                <div class="botao">
+                    <button type="submit" id="submit"> ENVIAR! </button>
+                </div>
+
+            </form>
+
+        </section>
+    </div>
+</body>
+
+</html>
